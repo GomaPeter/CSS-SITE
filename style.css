@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+background-color: #282828;
+color: white;
+}
+
+.header{
+    position: fixed top;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.LOGO{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    /* Cursor default keep the cursor in the arrow like display*/
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 35px;
+    transition: .4s;
+    /*Transition is used to control the animation speed*/
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #0c0032;
+}
+
+
+
+.Home{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:70px 10% 0;
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.home-content h3 span{
+    color: #3500d3;
+}
+
+.Home-img img{
+    max-width: 450px;
+}
+
+.social-media a{
+    color: yellow;
+}
+
+.btn{
+    color:yellow;
+}
+
+.About-Home{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding:70px 10% 0;
+
+}
+
+.Work-body h3{
+    text-align: center;
+    line-height: 5;
+}
+
+.Work-body h1{
+    text-align: center;
+    font-size: 42px;
+    line-height: 2;
+}
+
+.Work-body p{
+    text-align: center;
+    line-height: 1.6;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img{
+ border-radius: 25px;
+  padding: 20px;
+  width: 739px;
+  height: 480px;
+}
+
+.text h1{
+    font-size: 150%;
+    font-weight: 600;
+}
+
+.text h3{
+    font-size: 80%;
+}
